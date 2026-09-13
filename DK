@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Business Consultant | VEL Digital India</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{box-sizing:border-box}
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#f5f7fa;
+    color:#333;
+}
+
+/* Navbar */
+nav{
+    background:#0a3d62;
+    padding:12px 20px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin:0;
+    padding:0;
+}
+nav a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+}
+nav a:hover{color:#feca57}
+
+/* Hero */
+header{
+    background:linear-gradient(rgba(10,61,98,.8),rgba(10,61,98,.8)),
+    url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d') center/cover;
+    color:#fff;
+    text-align:center;
+    padding:90px 20px;
+}
+header h1{font-size:36px;margin-bottom:10px}
+header p{font-size:18px}
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#feca57;
+    color:#000;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+}
+.btn:hover{background:#ff9f43}
+
+/* Sections */
+section{
+    padding:60px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+h2{
+    text-align:center;
+    color:#0a3d62;
+    margin-bottom:30px;
+}
+
+/* Services */
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+}
+.card{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* Contact */
+.contact-box{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+input,textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+button{
+    background:#0a3d62;
+    color:#fff;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+}
+button:hover{background:#0652DD}
+
+/* Footer */
+footer{
+    background:#0a3d62;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+.social a{
+    color:#fff;
+    margin:0 10px;
+    font-size:18px;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<header>
+<h1>Business Consultant</h1>
+<p>Entrepreneur | VEL Digital India</p>
+<a href="#contact" class="btn">Get Consultation</a>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p style="text-align:center;max-width:800px;margin:auto;">
+Professional Business Consultant helping startups, MSMEs and enterprises with
+digital growth, compliance and smart business strategies.
+</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="services">
+<div class="card">
+<h3>Business Consulting</h3>
+<p>Startup planning, funding guidance & scaling strategies.</p>
+</div>
+<div class="card">
+<h3>Digital Marketing</h3>
+<p>Website, SEO, social media & online branding.</p>
+</div>
+<div class="card">
+<h3>MSME & Startup Support</h3>
+<p>GST, MSME, Startup India & compliance solutions.</p>
+</div>
+<div class="card">
+<h3>IT Solutions</h3>
+<p>Automation, software & digital tools.</p>
+</div>
+<div class="card">
+<h3>Cybersecurity & Infrastructure:</h3>
+<p>Information Security Analyst, Ethical Hacker, Cybersecurity Technician, Forensic Computer Analyst..</p>
+</div>
+<div class="card">
+<h3>Support & Design:</h3>
+<p>IT Support Officer, PC Technician, UX/UI Designer, Technical Writer, IT Trainer.</p>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<div class="contact-box">
+<form>
+<input type="text" placeholder="Dulal Kumar">
+<input type="email" placeholder="admin@silphor.in">
+<textarea rows="4" placeholder="Your Message"></textarea>
+<button type="admin@silphor.in">Send Message</button>
+</form>
+</div>
+
+</section id="Business Consultant
+Entrepreneur | VEL Digital India Payment">
+<a href="https://payments.cashfree.com/forms?code=silphor">
+  <button>Pay Now</button>
+</a>
+
+<!-- PHOTO SECTION -->
+<h2>Photos</h2>
+
+<div class="gallery">
+
+    <div class="card">
+        <a href="https://ibb.co/0RYkKXCm"><img src="https://i.ibb.co/FL89XW5m/1.png" alt="1" border="0"></a>
+    </div>
+
+    <div class="card">
+        <a href="https://ibb.co/spC5J6S6"><img src="https://i.ibb.co/20S8Ys2s/2.png" alt="2" border="0"></a>
+    </div>
+
+    <div class="card">
+        <a href="https://ibb.co/bjDqz06n"><img src="https://i.ibb.co/Y4wYpCNG/hj.png" alt="hj" border="0"></a>
+    </div>
+
+</div>
+<style>
+
+.zf_lB_Dimmer_462418{ 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(0, 0, 0);
+    opacity: 0.8;
+    z-index: 10000000;
+}
+
+.zf_lB_Container_462418{
+	position: fixed;
+	background-color: white;
+	margin: 0;
+	margin-right: 0px;
+	padding: 0;
+	height: 1702px;
+	width:  70%;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	border: 7px solid #11B1CC;
+	max-height: calc(100% - 60px);
+	z-index: 999999;
+	transition: height 0.5s ease;
+	outline : none;
+}
+
+p{
+margin-bottom: 10px;
+}
+
+.zf_lB_Wrapper_462418{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: 0;
+    margin-top: -180px;
+    z-index: 10000001;
+}
+
+.zf_main_id_462418{
+	height: calc(100% - 0px);
+	display: flex;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.zf_lb_closeform_462418 {
+    position: absolute;
+    right: -20px;
+    background: #2f2e2e;
+    padding: 0;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    top: -15px;
+    cursor: pointer;
+    border: 2px solid #d9d9d9;
+}
+.zf_lb_closeform_462418:before, .zf_lb_closeform_462418:after {
+    position: absolute;
+    left: 16px;
+    content: ' ';
+    height: 19px;
+    width: 2px;
+    top: 7px;
+    background-color: #f7f7f7;
+}
+
+.zf_lb_closeform_462418:before {
+  transform: rotate(45deg);
+}
+.zf_lb_closeform_462418:after {
+  transform: rotate(-45deg);
+} 
+
+
+
+@media screen and (min-device-width: 10px) and (max-device-width: 380px) {  
+   .zf_lB_Container_462418 {
+  width: 270px !important;
+} 
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 480px) {  
+   .zf_lB_Container_462418 {
+  width: 350px !important;
+} 
+}
+
+@media screen and (min-device-width: 440px) and (max-device-width: 500px) {  
+   .zf_lB_Container_462418 {
+  width: 380px !important;
+} 
+}
+
+@media only screen  and (min-width:500px) and (max-width:600px)  {  
+ 	.zf_lB_Container_462418 {
+	width: 450px;
+ }
+}
+
+@media only screen  and (min-width:601px) and (max-width:700px)  {  
+ 	.zf_lB_Container_462418 {
+	width: 540px;
+ }
+}
+
+@media only screen  and (min-width:700px) and (max-width:800px)  { 
+.zf_lB_Container_462418 {
+	width: 650px;
+ }
+}
+
+@media screen and (min-device-width: 801px) and (max-device-width: 1268px) {  
+   .zf_lB_Container_462418 {
+  width: 750px !important;
+} 
+}
+
+</style>      
+
+
+<button id="zf_button_462418" style="display: none;">Form</button>
+
+
+
+<script type="text/javascript">(function() {
+	try{
+
+			if( document.readyState == "complete" ){ 
+				onloadActions_462418();
+			}  else {
+			  	window.addEventListener('load', function (){
+			  		onloadActions_462418();
+			  	}, false);
+			}
+
+			function onloadActions_462418(){
+				constructDiv_462418();
+				showZForm_462418();
+			}
+
+			function constructDiv_462418(){
+				var iframeDiv = document.createElement("div");
+				iframeDiv.setAttribute('id','TT3-nMMfYOtwiFElqOWChhh4e0sSMatuKYPyKQz7Rik_462418');
+				iframeDiv.setAttribute('class','zf_main_id_462418');
+
+				var closeFormDiv = document.createElement("div");
+				closeFormDiv.setAttribute('id','deleteform_462418');
+				closeFormDiv.setAttribute('class','zf_lb_closeform_462418');
+				closeFormDiv.setAttribute('tabindex', 0);
+				
+
+				var containerDiv = document.createElement("div");
+				containerDiv.setAttribute('id','containerDiv_462418');
+				containerDiv.setAttribute('class','zf_lB_Container_462418 ');
+				containerDiv.appendChild(iframeDiv);
+				containerDiv.appendChild(closeFormDiv);
+				
+				var wrapperDiv = document.createElement("div");
+				wrapperDiv.setAttribute('class','zf_lB_Wrapper_462418');
+				wrapperDiv.appendChild(containerDiv);
+
+
+				var dimmerDiv = document.createElement("div");
+				dimmerDiv.setAttribute('class','zf_lB_Dimmer_462418');
+				dimmerDiv.setAttribute('elname','popup_box');
+
+				var mainDiv = document.createElement("div");
+				mainDiv.setAttribute('id','formsLightBox_462418');
+				mainDiv.style.display = "none";
+				mainDiv.appendChild(wrapperDiv);
+				mainDiv.appendChild(dimmerDiv);
+
+				document.body.appendChild(mainDiv);
+
+			}
+
+			function showZForm_462418(){
+				var iframe = document.getElementById("TT3-nMMfYOtwiFElqOWChhh4e0sSMatuKYPyKQz7Rik_462418").getElementsByTagName("iframe")[0];
+				if(iframe == undefined ||iframe.length == 0){
+					loadZForm_462418();
+					
+				} 
+				document.getElementById("formsLightBox_462418").style.display = "block"; 
+				document.body.style.overflow = "hidden";
+				setTimeout(function() {
+				    var containerDiv = document.getElementById("containerDiv_462418");
+				    containerDiv.setAttribute('tabindex', '-1');
+				    containerDiv.focus();
+				}, 100);
+			}
+
+			function deleteZForm_462418() {
+				var divCont = document.getElementById("formsLightBox_462418");
+				divCont.style.display="none";
+				document.body.style.overflow = "";
+
+				var iframe = document.getElementById("TT3-nMMfYOtwiFElqOWChhh4e0sSMatuKYPyKQz7Rik_462418").getElementsByTagName("iframe")[0];
+				iframe.remove();
+			}
+
+			function loadZForm_462418() {
+				var iframe = document.getElementById("TT3-nMMfYOtwiFElqOWChhh4e0sSMatuKYPyKQz7Rik_462418").getElementsByTagName("iframe")[0];
+				if(iframe == undefined ||iframe.length == 0){
+					var f = document.createElement("iframe");
+					f.src = getsrcurlZForm_462418('https://forms.zohopublic.in/epfoagentranchijharkhandgm1/form/BusinessConsultantEntrepreneurVELDigitalIndia/formperma/TT3-nMMfYOtwiFElqOWChhh4e0sSMatuKYPyKQz7Rik?zf_rszfm=1');
+				    
+					f.style.border="none";
+					f.style.minWidth="100%";
+					f.style.overflow="hidden";
+					var d = document.getElementById("TT3-nMMfYOtwiFElqOWChhh4e0sSMatuKYPyKQz7Rik_462418");
+					d.appendChild(f);
+
+					var deleteForm = document.getElementById("deleteform_462418");
+					deleteForm.onclick =  deleteZForm_462418;
+					deleteForm.addEventListener("keydown", function (event) {
+						if (event.key === "Enter" || event.keyCode === 13 || event.key === " " || event.keyCode === 32) {
+							event.preventDefault();
+							deleteZForm_462418();
+						}
+					});
+
+					
+
+					window.addEventListener('message', function (){
+						var evntData = event.data;
+						if( evntData && evntData.constructor == String ){
+							var zf_ifrm_data = evntData.split("|");
+							if ( zf_ifrm_data.length == 2 || zf_ifrm_data.length == 3 ) {
+								var zf_perma = zf_ifrm_data[0];
+								var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";
+								var iframe = document.getElementById("TT3-nMMfYOtwiFElqOWChhh4e0sSMatuKYPyKQz7Rik_462418").getElementsByTagName("iframe")[0];
+								if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {
+									var prevIframeHeight = iframe.style.height;
+
+									var zf_tout = false;
+									if( zf_ifrm_data.length == 3 ) {
+									    iframe.scrollIntoView();
+									    zf_tout = true;
+									}
+
+									if ( prevIframeHeight != zf_ifrm_ht_nw ) {
+										if( zf_tout ) {
+											setTimeout(function(){
+										        iframe.style.minHeight = zf_ifrm_ht_nw;
+												var containerDiv = document.getElementById("containerDiv_462418");
+												containerDiv.style.height=zf_ifrm_ht_nw;
+										    },500);
+										} else {
+										    iframe.style.minHeight = zf_ifrm_ht_nw;
+											var containerDiv = document.getElementById("containerDiv_462418");
+											containerDiv.style.height=zf_ifrm_ht_nw;
+										}
+									}
+								}
+							}
+						}
+
+					}, false);
+				}
+			}
+
+			
+
+			function getsrcurlZForm_462418(zf_src) {
+				try {
+					
+					if ( typeof ZFAdvLead !== "undefined" && typeof zfutm_zfAdvLead !== "undefined" ) {
+						for( var prmIdx = 0 ; prmIdx < ZFAdvLead.utmPNameArr.length ; prmIdx ++ ) {
+				        	var utmPm = ZFAdvLead.utmPNameArr[ prmIdx ];
+				        	var utmVal = zfutm_zfAdvLead.zfautm_gC_enc( ZFAdvLead.utmPNameArr[ prmIdx ] );
+					        if ( typeof utmVal !== "undefined" ) {
+					          if ( utmVal != "" ){
+					            if(zf_src.indexOf('?') > 0){
+					              zf_src = zf_src+'&'+utmPm+'='+utmVal;//No I18N
+					            }else{
+					              zf_src = zf_src+'?'+utmPm+'='+utmVal;//No I18N
+					            }
+					          }
+					        }
+				      	}
+					}
+
+					if ( typeof ZFLead !== "undefined" && typeof zfutm_zfLead !== "undefined" ) {
+						for( var prmIdx = 0 ; prmIdx < ZFLead.utmPNameArr.length ; prmIdx ++ ) {
+				        	var utmPm = ZFLead.utmPNameArr[ prmIdx ];
+				        	var utmVal = zfutm_zfLead.zfutm_gC_enc( ZFLead.utmPNameArr[ prmIdx ] );
+					        if ( typeof utmVal !== "undefined" ) {
+					          if ( utmVal != "" ){
+					            if(zf_src.indexOf('?') > 0){
+					              zf_src = zf_src+'&'+utmPm+'='+utmVal;//No I18N
+					            }else{
+					              zf_src = zf_src+'?'+utmPm+'='+utmVal;//No I18N
+					            }
+					          }
+					        }
+				      	} 
+					}
+				}catch(e){}
+				return zf_src;
+			}
+			var buttonElem = document.getElementById("zf_button_462418");
+			buttonElem.style.display = "block";
+			buttonElem.addEventListener("click", showZForm_462418);
+		
+			
+	}catch(e){}
+})();
+</script>		
+
+
+
+<!-- VIDEO SECTION -->
+<h2>Videos</h2>
+
+<div class="gallery">
+
+    <div class="card">
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="card">
+        <video controls>
+            <source src="C:\Users\ANANDHAN.S\Downloads\Blue Modern Business Video.mp4" type="video/mp4">
+        <video width="50" height="50"> 
+        </video>
+    </div>
+
+</div>
+
+<footer>
+<p>© 2026 VEL Digital India</p>
+<div class="social">
+<a href="https://www.facebook.com/share/1MTUTKmXqX/">Facebook</a>
+<a href="https://www.instagram.com/epfo.consultant.jharkhand?utm_source=qr&igsh=MTN3NDJ3NWdwYnlrcQ==">Instagram</a>
+<a href="www.linkedin.com/in/amit-kumar-415b86394">LinkedIn</a>
+<a href="https://wa.me/ +919572684732.me">whatsApp</a>
+<P>email-admin@silphor.in</P>
+<p>Phone-+919572684732</p>
+</div>
+</footer>
+
+</body>
+</html>
