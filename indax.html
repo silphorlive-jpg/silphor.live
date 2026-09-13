@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>सिल्फोर ग्राम पंचायत | झारखंड</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background:#f4f6f8; }
+    header { background:#0b6e4f; color:#fff; padding:16px; text-align:center; }
+    nav { background:#0e8a63; padding:10px; text-align:center; }
+    nav a { color:#fff; margin:0 10px; text-decoration:none; font-weight:bold; }
+    section { padding:20px; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+    .card { background:#fff; padding:16px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,.1); }
+    footer { background:#222; color:#fff; text-align:center; padding:12px; }
+    .members img { width:100%; border-radius:6px; }
+    .admin { background:#fff; padding:16px; border-radius:8px; max-width:420px; margin:auto; }
+    input, textarea { width:100%; padding:8px; margin:6px 0; }
+    button { padding:10px 14px; background:#0b6e4f; color:#fff; border:none; border-radius:6px; cursor:pointer; }
+    .social a { margin:0 6px; text-decoration:none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>सिल्फोर ग्राम पंचायत</h1>
+  <p>जिला – बोकारोSUMIT झारखंड</p>
+</header>
+
+<nav>
+  <a href="#home">होम</a>
+  <a href="#members">सदस्य</a>
+  <a href="#news">सूचना</a>
+  <a href="#contact">संपर्क</a>
+  <a href="#admin">एडमिन</a>
+</nav>
+
+<section id="home">
+  <h2>पंचायत के बारे में</h2>
+  <p>यह एक डेमो पंचायत स्तर की वेबसाइट है। यहाँ पंचायत की जानकारी, सदस्य, सूचना और सोशल मीडिया लिंक दिखाए जा सकते हैं।</p>
+  <div class="social">
+    <h3>Social Media</h3>
+    <a href="#">Facebook</a> |
+    <a href="#">YouTube</a> |
+    <a href="#">WhatsApp</a>
+  </div>
+</section>
+
+<section id="members">
+  <h2>पंचायत सदस्य (15)</h2>
+  <div class="cards members">
+    <!-- 15 Members -->
+    <script>
+      for(let i=1;i<=15;i++){
+        document.write(`<div class='card'><img src='https://via.placeholder.com/300x200'><h3>सदस्य ${i}</h3><p>पद: सदस्य</p></div>`);
+      }
+    </script>
+  </div>
+</section>
+
+<section id="yojna">
+  <h2>सरकारी योजनाएँ</h2>
+  <div class="cards">
+    <div class="card"><h3>प्रधानमंत्री आवास योजना</h3><p>गरीब परिवारों को पक्का घर देने की योजना।</p></div>
+    <div class="card"><h3>नल-जल योजना</h3><p>हर घर स्वच्छ पेयजल उपलब्ध कराना।</p></div>
+    <div class="card"><h3>मनरेगा</h3><p>ग्रामीण रोजगार गारंटी योजना।</p></div>
+    <div class="card"><h3>आयुष्मान भारत</h3><p>मुफ़्त स्वास्थ्य बीमा योजना।</p></div>
+  </div>
+</section>
+
+<section id="news">
+  <h2>सूचना / नोटिस</h2>
+  <div class="cards">
+    <div class="card">आज ग्राम सभा की बैठक शाम 5 बजे।</div>
+    <div class="card">नल-जल योजना का कार्य जारी है।</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>संपर्क करें</h2>
+  <p>मोबाइल: 9XXXXXXXXX</p>
+  <p>ईमेल: panchayat@email.com</p>
+</section>
+
+<section id="admin">
+  <h2>Admin Panel<h2>
+  <div class="admin">
+    <label>Username</label>
+    <input type="text" placeholder="admin" />
+    <label>Password</label>
+    <input type="password" placeholder="******" />
+    <button onclick="alert(' Admin Panel – Backend नहीं जुड़ा है')">Login</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 सिल्फोर ग्राम पंचायत | सभी अधिकार सुरक्षित</p>
+</footer>
+
+</body>
+</html>
